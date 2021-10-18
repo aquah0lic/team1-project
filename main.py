@@ -24,32 +24,26 @@ def main():
         title = "Steam Recommendations Tool"
         choices = ["Casual", "Colony Sim", "Automation", "Building"]
         choice = choicebox(msg, title, choices)
-
-    def quest_b_3():
-        msg ="Select your choices."
-        title = "Steam Recommendations Tool"
-        choices = ["Casual", "Colony Sim", "Automation", "Building"]
-        choice = choicebox(msg, title, choices)
         
-    def quest_b_4():
+    def quest_b_3():
         msg ="Select your choices."
         title = "Steam Recommendations Tool"
         choices = ["Farming Sim", "Life Sim", "Mod", "Realistic"]
         choice = choicebox(msg, title, choices)
         
-    def quest_b_5():
+    def quest_b_4():
         msg ="Select your choices."
         title = "Steam Recommendations Tool"
         choices = ["Medieval", "PvE", "Utilities", "Mature"]
         choice = choicebox(msg, title, choices)
 
-    def quest_b_6():
+    def quest_b_5():
         msg ="Select your choices."
         title = "Steam Recommendations Tool"
         choices = ["Hack and Slash", "Difficult", "Music", "Exploration"]
         choice = choicebox(msg, title, choices)
         
-    def quest_b_7():
+    def quest_b_6():
         msg ="Select your choices."
         title = "Steam Recommendations Tool"
         choices = ["Music", "Sci-fi", "Basketball", "Looter Shooter", "Action RPG"]
@@ -88,13 +82,13 @@ def main():
     def quest_a_6():
         msg ="Select your choices."
         title = "Steam Recommendations Tool"
-        choices = ["Sandbox", "Funny", "Competative", "Martial Arts"]
+        choices = ["Sandbox", "Funny", "Competitive", "Martial Arts"]
         choice = choicebox(msg, title, choices)
 
     def quest_a_7():
         msg ="Select your choices."
         title = "Steam Recommendations Tool"
-        choices = ["Memes", "Managment", "racing", "eSports"]
+        choices = ["Memes", "Management", "Racing", "eSports"]
         choice = choicebox(msg, title, choices)
         
     quest_d_1()
@@ -105,7 +99,6 @@ def main():
     quest_b_4()
     quest_b_5()
     quest_b_6()
-    quest_b_7()
     quest_a_1()
     quest_a_2()
     quest_a_3()
