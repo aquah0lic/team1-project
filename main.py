@@ -91,32 +91,26 @@ def main():
         title = "Steam Recommendations Tool"
         choices = ["Open World", "Indie", "First Person Shooter"]
         choice = choicebox(msg, title, choices)
-        if choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1        
+        if choice == "Open World":
+            open_world_tally = open_world_tally + 1
+        elif choice == "Indie":
+            indie_tally = indie_tally + 1
+        elif choice == "First Person Shooter":
+            fps_tally = fps_tally + 1     
         
     def quest_b_1():
         msg ="Select your choices."
         title = "Steam Recommendations Tool"
         choices = ["Massively Multiplayer", "Online Co-op", "Historical", "Horror"]
         choice = choicebox(msg, title, choices)
-        if choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1
-        elif choice == "":
-            x = x + 1
+        if choice == "Massively Multiplayer":
+            massively_multiplayer_tally = massively_multiplayer_tally + 1
+        elif choice == "Online Co-op":
+            online_coop_tally = x + 1
+        elif choice == "Historical":
+            historical_tally = historical_tally + 1
+        elif choice == "Horror":
+            horror_tally = horror_tally + 1
         
     def quest_b_2():
         msg ="Select your choices."
