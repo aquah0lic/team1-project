@@ -106,7 +106,7 @@ def main():
         if choice == "Massively Multiplayer":
             massively_multiplayer_tally = massively_multiplayer_tally + 1
         elif choice == "Online Co-op":
-            online_coop_tally = x + 1
+            online_coop_tally = online_coop_tally + 1
         elif choice == "Historical":
             historical_tally = historical_tally + 1
         elif choice == "Horror":
