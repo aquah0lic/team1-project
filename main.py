@@ -2,7 +2,7 @@ from easygui import *
 
     #use the set to compare to a set of user tags. Then pull common tags to provide the recommendation.
 user_choice_set = set()
-user_tally_list = set(....)
+user_tally_set = set(....)
 
 def main():
     def quest_d_1(): 
