@@ -45,7 +45,7 @@ def main():
         title = "Steam Recommendations Tool"
         choices = ["Medieval", "PvE", "Utilities", "Mature"]
         choice = choicebox(msg, title, choices)
-        user_choioce_set.add(choice)
+        user_choice_set.add(choice)
 
     def quest_b_5():
         msg ="Select your choices."
