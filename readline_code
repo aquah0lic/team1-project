@@ -1,0 +1,6 @@
+taglist = open("commatags.txt" ,"r", encoding="utf-8")
+commatags = (taglist.read()) #opens and reads the tags
+
+for line in taglist:
+    samplegame= line.split(",") #splits each line by comma 
+    
